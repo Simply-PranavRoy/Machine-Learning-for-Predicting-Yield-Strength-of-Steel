@@ -1,0 +1,26 @@
+
+# Step 1: Create a virtual environment in you prefered directory
+	Example ==> cd "C:\Users\user_name\mycodes
+	            python -m venv matbench-env
+	Doing so, a "matbench-env" folder will be created in your prefered directory.
+
+# Step 2: Activate it
+	# On Windows:
+		matbench-env\Scripts\activate
+
+# Step 3: Install your packages. 
+In your directory create a text file and name it requirements.txt, paste the following and save the file:
+	matminer
+	pandas
+	scikit-learn
+	matplotlib
+	seaborn
+	xgboost
+	torch
+	openpyxl
+
+Make sure the directory is where the virtual enviroment was created. 
+
+In the terminal paste this: pip install -r requirements.txt
+
+

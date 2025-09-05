@@ -1,0 +1,8 @@
+matminer
+pandas
+scikit-learn
+matplotlib
+seaborn
+xgboost
+torch
+openpyxl
